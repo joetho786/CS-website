@@ -17,8 +17,8 @@ def make_json(csvFilePath, jsonFilePath):
         # and add it to data 
         for rows in csvReader: 
             data = {} 
-            data['name'] = rows[1]
-            ki = rows[2].split('/')
+            data['name'] = rows[2]
+            ki = rows[5].split('/')
             out=""
             for i in ki[:-1]:
                 out+=i
@@ -39,7 +39,7 @@ def make_json(csvFilePath, jsonFilePath):
   
 # Decide the two file paths according to your  
 # computer system 
-csvFilePath = r'Name.csv'
+csvFilePath = r'Freshers_2022.csv'
 jsonFilePath = r'mr&mrsfreshers.json'
   
 # Call the make_json function 

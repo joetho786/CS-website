@@ -17,8 +17,8 @@ def make_json(csvFilePath, jsonFilePath):
         # and add it to data 
         for rows in csvReader: 
             data = {} 
-            data['name'] = rows[2]
-            ki = rows[5].split('/')
+            data['name'] = rows[0]
+            ki = rows[3].split('/')
             out=""
             for i in ki[:-1]:
                 out+=i

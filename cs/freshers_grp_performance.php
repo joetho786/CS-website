@@ -71,12 +71,12 @@ include 'head.html';
 
     <div class="navbar-margin"></div>
     <div class="divider-new" style="margin-bottom: 10px;">
-        <h2 class="h2-responsive" style="text-align: center;">Freshers Group Performance <p style="font-size: 18px;">Freshers' 2021</p>
+        <h2 class="h2-responsive" style="text-align: center;">Freshers Group Performance <p style="font-size: 18px;">Freshers' 2022</p>
         </h2>
     </div>
     <div id="vid-container" class="flex-center video-container">
         <?php
-        $content = json_decode(file_get_contents('./freshers_grp_activity.json'), true);
+        $content = json_decode(file_get_contents('./freshers_grp_activity21.json'), true);
         $total = count($content);
 
         parse_str($_SERVER['QUERY_STRING'], $query);

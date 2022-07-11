@@ -189,8 +189,7 @@ include 'navbar.html';
             <div id="collapse7" class="collapse" role="tabpanel" aria-labelledby="heading7">
                 <div class="card-block">
                     <strong>A. </strong>Students will be allotted their hostel rooms as soon as they arrive
-                    at the campus on the reporting date itself and not before the reporting date. Each student will get
-                    a single room that will have a bed, a chair and table, an almirah and an A.C.
+                    at the campus on the reporting date itself and not before the reporting date. All the rooms will be airconditioned.
                 </div>
             </div>
         </div>

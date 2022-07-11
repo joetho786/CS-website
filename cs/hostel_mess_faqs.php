@@ -48,35 +48,18 @@ include 'navbar.html';
         </div>
 
         <div class="card">
-            <div class="card-header" role="tab" id="heading2">
-                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2"
-                   aria-expanded="false" aria-controls="collapse2">
-                    <h5 class="mb-0">
-                        <strong>Q.2 </strong>How many people will stay in a hostel room?
-                        <i class="fa fa-angle-down rotate-icon"></i>
-                    </h5>
-                </a>
-            </div>
-            <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
-                <div class="card-block">
-                    <strong>A.</strong>All students will be allotted independent rooms in the hostel i.e.
-                    each student will be given a separate room.
-                </div>
-            </div>
-        </div>
-        <div class="card">
             <div class="card-header" role="tab" id="heading3">
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3"
                    aria-expanded="false" aria-controls="collapse3">
                     <h5 class="mb-0">
-                        <strong>Q.3 </strong>What will be there in my hostel room? What should I bring?
+                        <strong>Q.2 </strong>What will be there in my hostel room? What should I bring?
                         <i class="fa fa-angle-down rotate-icon"></i>
                     </h5>
                 </a>
             </div>
             <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
                 <div class="card-block">
-                    <strong>A.</strong>Every room is provided with a bed, almirah,a table and a chair. One should
+                    <strong>A.</strong>Chairs, tables and almirah will be provided. One should
                     bring few set of FORMALS for orientation programs, shorts/track pants and a pair of sports shoes
                     for the Compulsory Physical Activities(CPA). One can also bring a lab coat ,drafter and
                     scientific calculator which would be useful in certain courses in the first year or buy them
@@ -89,7 +72,7 @@ include 'navbar.html';
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4"
                    aria-expanded="false" aria-controls="collapse4">
                     <h5 class="mb-0">
-                        <strong>Q.4 </strong> What facilities are provided to the freshers for the purchase
+                        <strong>Q.3 </strong> What facilities are provided to the freshers for the purchase
                         of hostel necessities like mattresses, pillows, buckets etc.? Do we need to bring
                         these things along with us?
                         <i class="fa fa-angle-down rotate-icon"></i>
@@ -110,7 +93,7 @@ include 'navbar.html';
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5"
                    aria-expanded="false" aria-controls="collapse5">
                     <h5 class="mb-0">
-                        <strong>Q.5 </strong>What are the Hostel timings?
+                        <strong>Q.4 </strong>What are the Hostel timings?
                         <i class="fa fa-angle-down rotate-icon"></i>
                     </h5>
                 </a>
@@ -128,7 +111,7 @@ include 'navbar.html';
                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6"
                    aria-expanded="false" aria-controls="collapse6">
                     <h5 class="mb-0">
-                        <strong>Q.6 </strong>How is the mess food? Is there any other place nearby?
+                        <strong>Q.5 </strong>How is the mess food? Is there any other place nearby?
                         <i class="fa fa-angle-down rotate-icon"></i>
                     </h5>
                 </a>

@@ -19,14 +19,15 @@ def make_json(csvFilePath, jsonFilePath):
             data['name'] = rows[0]
             data['email'] = rows[1]
             data['roll'] = rows[2]
-            data['about'] = rows[3]
-            data['place'] = rows[4]
-            data['branch'] = rows[5]
+            data['birthday'] = rows[3]
+            data['about'] = rows[4]
+            data['place'] = rows[5]
+            data['branch'] = rows[6]
             data['image'] = 'team_2021_images/UG/' + rows[2]
-            data['whatsapp'] = rows[7]
-            data['fb'] = rows[8]
-            data['instagram'] = rows[9]
-            data['linkedin'] = rows[10]
+            data['whatsapp'] = rows[8]
+            data['fb'] = rows[9]
+            data['instagram'] = rows[10]
+            data['linkedin'] = rows[11]
 
             ls.append(data)
             # Assuming a column named 'No' to 
@@ -42,8 +43,8 @@ def make_json(csvFilePath, jsonFilePath):
   
 # Decide the two file paths according to your  
 # computer system 
-csvFilePath = r'UG_Team_2021.csv'
-jsonFilePath = r'swc_ug_team_2021.json'
+csvFilePath = r'UG_Team_2022.csv'
+jsonFilePath = r'swc_ug_team_2022.json'
   
 # Call the make_json function 
 make_json(csvFilePath, jsonFilePath)

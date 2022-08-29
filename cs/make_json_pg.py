@@ -16,14 +16,14 @@ def make_json(csvFilePath, jsonFilePath):
         # and add it to data 
         for rows in csvReader: 
             data = {} 
-            data['name'] = rows[1]
-            data['role'] = rows[2]
-            data['email'] = rows[3]
-            data['whatsapp'] = rows[4]
-            data['fb'] = rows[6]
-            data['instagram'] = rows[7]
-            data['linkedin'] = rows[8]
-            data['image'] = 'team_2021_images/PG/' + rows[1] + '.jpg'
+            data['name'] = rows[0]
+            data['role'] = rows[1]
+            data['email'] = rows[2]
+            data['whatsapp'] = rows[3]
+            data['fb'] = rows[5]
+            data['instagram'] = rows[6]
+            data['linkedin'] = rows[7]
+            data['image'] = 'team_2021_images/PG/' + rows[0] + '.jpg'
 
             ls.append(data)
 

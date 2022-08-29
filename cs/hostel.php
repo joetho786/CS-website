@@ -23,10 +23,7 @@ include 'navbar.html';
     <!--Section description-->
     <p class="section-description"></p>
     <div class="row text-justify p-3">
-        Each student will be provided with a separate hostel room (~80 square feet).
-        The room will be air-cooled, and have basic furniture (table, chair, bed and almirah) and Internet connection.
-        The hostel (of 236 rooms) will have a gymnasium, a games room, a TV room, a music room, and a reading room.
-        The Dining Hall caters to 1000 students. It will have separate vegetarian and non-vegetarian kitchens and dining areas, along with a generic food court.
+        All hostel rooms (~80 square feet) are air-cooled, and have basic furniture facilities like table, chair, bed and almirah and Internet connection. The hostel (of 236 rooms) will have a gymnasium, a games room, a TV room, a music room, and a reading room. The Dining Hall caters to 1000 students. It will have separate vegetarian and non-vegetarian kitchens and dining areas, along with a generic food court.
     </div>
     <hr>
     <div class="row flex-center">

@@ -3,8 +3,6 @@ include 'head.html';
 ?>
     <head>
         <title>Student Wellbeing Committee - IIT Jodhpur</title>
-        <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
     <body>
 <div id="fb-root"></div>
@@ -41,16 +39,12 @@ include 'navbar.html';
         <li data-target="#carousel-example-1" data-interval="5000" data-slide-to="9"></li>
     </ol>
     <!--/.Indicators-->
- 
+
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
 
         <!--First slide-->
         <div class="carousel-item active view">
-       
-        <?php
-        include 'callout.html';
-        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -66,11 +60,6 @@ include 'navbar.html';
         <!--<slide>-->
         <!--</slide>-->
         <div class="carousel-item view">
-            <?php
-            include 'callout.html';
-            ?>
-
-
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -82,9 +71,6 @@ include 'navbar.html';
         </div>
         <!--Slide -->
         <div class="carousel-item view">
-            <?php
-            include 'callout.html';
-            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -98,9 +84,6 @@ include 'navbar.html';
         <!--Slide -->
 
         <div class="carousel-item view">
-        <?php
-        include 'callout.html';
-        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -112,9 +95,6 @@ include 'navbar.html';
         </div>
 
         <div class="carousel-item view">
-        <?php
-        include 'callout.html';
-        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -126,9 +106,6 @@ include 'navbar.html';
         </div>
 
         <div class="carousel-item view">
-        <?php
-        include 'callout.html';
-        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -140,9 +117,6 @@ include 'navbar.html';
         </div>
         <!--Slide -->
         <div class="carousel-item view">
-        <?php
-        include 'callout.html';
-        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -154,9 +128,6 @@ include 'navbar.html';
         </div>
         <!--/.Slide -->
         <div class="carousel-item view">
-        <?php
-            include 'callout.html';
-            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -169,9 +140,6 @@ include 'navbar.html';
         <!--/.Slide -->
         <!--Slide -->
         <div class="carousel-item view">
-        <?php
-            include 'callout.html';
-            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -184,9 +152,6 @@ include 'navbar.html';
         <!--/.Slide -->
         <!--Slide -->
         <div class="carousel-item view">
-        <?php
-            include 'callout.html';
-            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -237,7 +202,7 @@ include 'navbar.html';
                     <!--/.Card image-->
 
                     <!--Card content-->
-                    <div class="card-block" style="height: 12.5rem;">
+                    <div class="card-block" style="height: 14rem; overflow: scroll">
                         <!--Title-->	
                         <h4 class="card-title">Important Links</h4>
                         <!--Text-->
@@ -247,14 +212,18 @@ include 'navbar.html';
                             <li><a href="bus_schedule.php">Bus Schedule</a></li>
                             <li><a href="form_required.php">Forms and Documents</a></li>
                             <li><a href="general_faqs.php">General Queries</a></li>
+                            <li><a href="https://discord.gg/n9bHXwhFTZ">Discord Server</a></li>
+                            <li><a href="https://www.instagram.com/iit_jodhpur_freshers/">Instagram</a></li>
+                            <li><a href="https://t.me/+dB9-CH4R39FkMGZI">Telegram</a></li>
+                            <li><a href="https://www.facebook.com/groups/iitjff13/?ref=share">Facebook</a></li>
                         </ol>
                         </p>
                     </div>
                     <!--/.Card content-->
                 </div>
             </div>
-            <div id="announcement" class="col-sm-4 card-block">
-                <div class="text-justify card " role="list" style="height: 22rem;">
+            <div class="col-sm-4 card-block">
+                <div class="text-justify card " role="list" style="height: 24rem;">
                     <h3 class="h3-responsive card-header">Announcements</h4></h3>
                     <ol class="card-block pl-5" style="overflow-y: scroll;">
                         <!-- <li>
@@ -270,11 +239,16 @@ include 'navbar.html';
                         </li> -->
                         <li>
                         Dear Students,<br>
-                        Congratulations on qualifying in JEE (Advanced) 2020 and thank you for choosing IIT Jodhpur. IIT<br>
-                        Jodhpur welcomes you…
+                        Congratulations on qualifying in JEE (Advanced) 2022 and thank you for choosing IIT Jodhpur. IIT<br>
+                        Jodhpur welcomes you heartily.
                         </li>
                         <li>
-                        Dates and intructions for registration <a href="http://iitj.ac.in/uploaded_docs/B.tech%20ADMISSION%202020-21_10112020.pdf">Click Here</a>
+                        For Dates and Intructions for registration<a href="http://academic.iitj.ac.in/?page_id=528#Academic%20Calendar%202022-23%20Semester%201%20for%20UG%20First%20Year" target="_blank"> Click Here</a> 
+                            <img src ="images\newicon.gif">
+                        </li>
+                        <li>
+                        In case of any queries feel free to contact <a href="http://swc.iitj.ac.in/cs_team_ug_2022.php" target="_blank">Our Team</a> 
+                            <img src ="images\newicon.gif">
                         </li>
                     </ol>
                 </div>
@@ -296,7 +270,7 @@ include 'navbar.html';
 
             <div class="col-sm-4 card-block">
                 <!--Card-->
-                <div class="card hidden-lg-down" style="padding: 0.6rem;">
+                <div class="card hidden-lg-down" style="padding: 0.6rem; height:24rem">
                     <div class="fb-page text-center" data-href="https://www.facebook.com/SWC.IITJodhpur/"
                          data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
                          data-height="335" data-hide-cover="false" data-show-facepile="true">
@@ -424,15 +398,7 @@ include 'navbar.html';
 <script type="text/javascript" src="js/tether.min.js"></script>
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="js/compiled.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script><!-- MDB core JavaScript -->
+<!-- MDB core JavaScript -->
 <script src="js/home-map.js"></script>
 <script src="js/carousel.js"></script>
 <br>

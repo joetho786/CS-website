@@ -3,6 +3,8 @@ include 'head.html';
 ?>
     <head>
         <title>Student Wellbeing Committee - IIT Jodhpur</title>
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     </head>
     <body>
 <div id="fb-root"></div>
@@ -39,12 +41,16 @@ include 'navbar.html';
         <li data-target="#carousel-example-1" data-interval="5000" data-slide-to="9"></li>
     </ol>
     <!--/.Indicators-->
-
+ 
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
 
         <!--First slide-->
         <div class="carousel-item active view">
+       
+        <?php
+        include 'callout.html';
+        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -60,6 +66,11 @@ include 'navbar.html';
         <!--<slide>-->
         <!--</slide>-->
         <div class="carousel-item view">
+            <?php
+            include 'callout.html';
+            ?>
+
+
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -71,6 +82,9 @@ include 'navbar.html';
         </div>
         <!--Slide -->
         <div class="carousel-item view">
+            <?php
+            include 'callout.html';
+            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -84,6 +98,9 @@ include 'navbar.html';
         <!--Slide -->
 
         <div class="carousel-item view">
+        <?php
+        include 'callout.html';
+        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -95,6 +112,9 @@ include 'navbar.html';
         </div>
 
         <div class="carousel-item view">
+        <?php
+        include 'callout.html';
+        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -106,6 +126,9 @@ include 'navbar.html';
         </div>
 
         <div class="carousel-item view">
+        <?php
+        include 'callout.html';
+        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -117,6 +140,9 @@ include 'navbar.html';
         </div>
         <!--Slide -->
         <div class="carousel-item view">
+        <?php
+        include 'callout.html';
+        ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -128,6 +154,9 @@ include 'navbar.html';
         </div>
         <!--/.Slide -->
         <div class="carousel-item view">
+        <?php
+            include 'callout.html';
+            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -140,6 +169,9 @@ include 'navbar.html';
         <!--/.Slide -->
         <!--Slide -->
         <div class="carousel-item view">
+        <?php
+            include 'callout.html';
+            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -152,6 +184,9 @@ include 'navbar.html';
         <!--/.Slide -->
         <!--Slide -->
         <div class="carousel-item view">
+        <?php
+            include 'callout.html';
+            ?>
             <div class="mask hm-black-light">
                 <div class="full-bg-img"></div>
             </div>
@@ -202,7 +237,7 @@ include 'navbar.html';
                     <!--/.Card image-->
 
                     <!--Card content-->
-                    <div class="card-block" style="height: 14rem; overflow: scroll">
+                    <div class="card-block" style="height: 12.5rem; overflow:scroll">
                         <!--Title-->	
                         <h4 class="card-title">Important Links</h4>
                         <!--Text-->
@@ -222,8 +257,8 @@ include 'navbar.html';
                     <!--/.Card content-->
                 </div>
             </div>
-            <div class="col-sm-4 card-block">
-                <div class="text-justify card " role="list" style="height: 24rem;">
+            <div id="announcement" class="col-sm-4 card-block">
+                <div class="text-justify card " role="list" style="height: 22rem;">
                     <h3 class="h3-responsive card-header">Announcements</h4></h3>
                     <ol class="card-block pl-5" style="overflow-y: scroll;">
                         <!-- <li>
@@ -270,7 +305,7 @@ include 'navbar.html';
 
             <div class="col-sm-4 card-block">
                 <!--Card-->
-                <div class="card hidden-lg-down" style="padding: 0.6rem; height:24rem">
+                <div class="card hidden-lg-down" style="padding: 0.6rem;">
                     <div class="fb-page text-center" data-href="https://www.facebook.com/SWC.IITJodhpur/"
                          data-tabs="timeline" data-small-header="false" data-adapt-container-width="true"
                          data-height="335" data-hide-cover="false" data-show-facepile="true">
@@ -398,7 +433,15 @@ include 'navbar.html';
 <script type="text/javascript" src="js/tether.min.js"></script>
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="js/compiled.min.js"></script>
-<!-- MDB core JavaScript -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script><!-- MDB core JavaScript -->
 <script src="js/home-map.js"></script>
 <script src="js/carousel.js"></script>
 <br>

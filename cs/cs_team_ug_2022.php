@@ -67,12 +67,23 @@ include 'navbar.html';
         $content = json_decode(file_get_contents('./swc_ug_team_2022.json'), true);
         $start = 2;
         $end = 10;
+        $remaining = $end - $start;
+        $j = $remaining %3;
 
         $role = '.jpg';
         
         for ($i = $start; $i < $end; $i++) {
             $entry = $content[$i];
-            echo '<div class="col-lg-4 col-md-4 mb-r animate-profile invisible">';
+            if( $i<$end-$j){
+                echo '<div class="col-lg-4 col-md-4 mb-r animate-profile invisible">';
+            } else{
+                if($j==2){
+                    echo '<div class="col-lg-6 col-md-4 mb-r animate-profile invisible">';
+                } else if($j==1){
+                    echo '<div class="col-lg-12 col-md-4 mb-r animate-profile invisible">';
+                }
+                
+            }
             echo '<div class="avatar">';
             echo '<img src="images/sqloader.gif" data-src="' . $entry["image"].$role . '" class="lazyload rounded-circle">';
             echo '</div>';
@@ -107,12 +118,23 @@ include 'navbar.html';
         $content = json_decode(file_get_contents('./swc_ug_team_2022.json'), true);
         $start = 10;
         $end = 56;
+        $remaining = $end - $start;
+        $j = $remaining %3;
 
         $role = '.jpg';
         
         for ($i = $start; $i < $end; $i++) {
             $entry = $content[$i];
-            echo '<div class="col-lg-4 col-md-4 mb-r animate-profile invisible">';
+            if( $i<$end-$j){
+                echo '<div class="col-lg-4 col-md-4 mb-r animate-profile invisible">';
+            } else{
+                if($j==2){
+                    echo '<div class="col-lg-6 col-md-4 mb-r animate-profile invisible">';
+                } else if($j==1){
+                    echo '<div class="col-lg-12 col-md-4 mb-r animate-profile invisible">';
+                }
+                
+            }
             echo '<div class="avatar">';
             echo '<img src="images/sqloader.gif" data-src="' . $entry["image"].$role . '" class="lazyload rounded-circle">';
             echo '</div>';

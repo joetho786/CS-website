@@ -237,7 +237,7 @@ include 'navbar.html';
                     <!--/.Card image-->
 
                     <!--Card content-->
-                    <div class="card-block" style="height: 12.5rem;">
+                    <div class="card-block" style="height: 12.5rem; overflow:scroll">
                         <!--Title-->	
                         <h4 class="card-title">Important Links</h4>
                         <!--Text-->
@@ -247,6 +247,10 @@ include 'navbar.html';
                             <li><a href="bus_schedule.php">Bus Schedule</a></li>
                             <li><a href="form_required.php">Forms and Documents</a></li>
                             <li><a href="general_faqs.php">General Queries</a></li>
+                            <li><a href="https://discord.gg/n9bHXwhFTZ">Discord Server</a></li>
+                            <li><a href="https://www.instagram.com/iit_jodhpur_freshers/">Instagram</a></li>
+                            <li><a href="https://t.me/+dB9-CH4R39FkMGZI">Telegram</a></li>
+                            <li><a href="https://www.facebook.com/groups/iitjff13/?ref=share">Facebook</a></li>
                         </ol>
                         </p>
                     </div>
@@ -270,11 +274,16 @@ include 'navbar.html';
                         </li> -->
                         <li>
                         Dear Students,<br>
-                        Congratulations on qualifying in JEE (Advanced) 2020 and thank you for choosing IIT Jodhpur. IIT<br>
-                        Jodhpur welcomes you…
+                        Congratulations on qualifying in JEE (Advanced) 2022 and thank you for choosing IIT Jodhpur. IIT<br>
+                        Jodhpur welcomes you heartily.
                         </li>
                         <li>
-                        Dates and intructions for registration <a href="http://iitj.ac.in/uploaded_docs/B.tech%20ADMISSION%202020-21_10112020.pdf">Click Here</a>
+                        For Dates and Intructions for registration<a href="http://academic.iitj.ac.in/?page_id=528#Academic%20Calendar%202022-23%20Semester%201%20for%20UG%20First%20Year" target="_blank"> Click Here</a> 
+                            <img src ="images\newicon.gif">
+                        </li>
+                        <li>
+                        In case of any queries feel free to contact <a href="http://swc.iitj.ac.in/cs_team_ug_2022.php" target="_blank">Our Team</a> 
+                            <img src ="images\newicon.gif">
                         </li>
                     </ol>
                 </div>

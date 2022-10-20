@@ -117,7 +117,7 @@ include 'navbar.html';
     <?php
         $content = json_decode(file_get_contents('./swc_ug_team_2022.json'), true);
         $start = 10;
-        $end = 56;
+        $end = 55;
         $remaining = $end - $start;
         $j = $remaining %3;
 

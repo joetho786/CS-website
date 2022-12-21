@@ -32,6 +32,9 @@ include 'navbar.html';
             <li class="nav-item">
                 <a class="nav-link" data-toggle="tab" href="#pane4" role="tab">Nimble</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#pane5" role="tab">Prometeo</a>
+            </li>
         </ul>
         <!-- Tab panels -->
         <div class="tab-content text-justify">
@@ -39,8 +42,8 @@ include 'navbar.html';
             <div class="tab-pane fade in show active" id="panel" role="tabpanel">
                 <br>
                 The Indian Institute Of Technology Jodhpur, since its inception has played an
-                efficacious role in enhancing the socio-technical aspects of education in its domain. The Inter college
-                Socio-cult-tech fest IGNUS epitomizes the same.<br><br>
+                efficacious role in enhancing the socio-cultural aspects of education in its domain. The Inter college
+                Socio-cult fest IGNUS epitomizes the same.<br><br>
 
                 Ignus witnesses the participation of numerous stalwarts in the various arenas offered. The fest gives a
                 platform to some of the country’s best hidden and unfathomed talents. With the total footfall amounting
@@ -58,10 +61,10 @@ include 'navbar.html';
                 IITJ. It has attracted major sponsors and extensive media coverage over the years. Ignus has created an
                 unmatched aura of science and technology spectacle at the campus of IITJ.<br><br>
 
-                To add to the glare various workshops are organised by professionals from various companies to provide
+                <!-- To add to the glare various workshops are organised by professionals from various companies to provide
                 student a technical exposure to current topics including Cloud computing, Ethical hacking, Game
                 development on cloud platform, Android, Automobile, Robotics and others. Also guest lecture of various
-                eminent personalities are organised during Ignus.<br><br>
+                eminent personalities are organised during Ignus.<br><br> -->
 
                 To know more about Ignus <a href="http://ignus.org/" target="_blank">Click Here</a>
                 <br><br>
@@ -133,6 +136,7 @@ include 'navbar.html';
                 </div>
             </div>
             <!--/.Panel 3-->
+            <!-- Panel 4 -->
             <div class="tab-pane fade" id="pane4" role="tabpanel">
                 <br>
                 Nimble, the intra college technical fest provides a platform to the techno buds
@@ -147,6 +151,33 @@ include 'navbar.html';
                         <figure>
                             <a href="images/g9.jpg" data-size="1600x1066">
                                 <img src="images/g9.jpg" class="img-fluid z-depth-2">
+                            </a>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <!--/.Panel 4 -->
+            <!-- Panel 5 -->
+            <div class="tab-pane fade" id="pane5" role="tabpanel">
+                <br>
+                Prometeo is National Technical + Entrepreneurial Festival of IIT Jodhpur.
+                Prometeo derives its name from the Greek word for forethinker, and celebrates disruptive 
+                technologies through talks, workshops, and competitions. <br><br>
+
+                Technology has been the heart of the development of the human race from the very beginning
+                and is speculated to be its heart till infinity. The theme of Prometeo 2023, “Origin to Infinity”
+                is centered around the same thought where we explore what technology has been in the past, what it 
+                is now and what it can be in the future. This year we are going to explore the past and future of 
+                technological and entrepreneurial developments through a wide range of ideas developed and presented 
+                during the course of Prometeo '23. <br><br>
+
+                To know more about Prometeo <a href="https://prometeo.in" target="_blank">Click Here</a>
+                <br><br>
+                <div class="row">
+                    <div class="mdb-lightbox col-sm-8 offset-sm-2">
+                        <figure>
+                            <a href="images/a.png" data-size="1066x1066">
+                                <img src="images/a.png" class="img-fluid z-depth-2">
                             </a>
                         </figure>
                     </div>

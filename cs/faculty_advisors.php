@@ -36,13 +36,12 @@ include 'navbar.html';
         </div>
         <div class="col-lg-6 col-md-12 mb-r animate-profile invisible">
         <div class="avatar">
-                <img src="images/sqloader.gif" data-src="images/avatar/ankitasharma.png" class="lazyload rounded-circle">
+                <img src="images/sqloader.gif" data-src="images/avatar/Samanwita.jpg" class="lazyload rounded-circle">
             </div>
-            <h4>Dr. Ankita Sharma</h4>
+            <h4>Dr. Samanwita Pal</h4>
             <h5>Faculty Advisor</h5>
-            <h5><strong>Contact : </strong>0291-2801406</h5>
-            <a class="icons-sm email-ic" href="mailto:ankitasharma@iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
-            <a class="icons-sm fb-ic" target="_blank" href="https://www.facebook.com/ankitabhu"><iclass="fa fa-facebook"> </i></a>
+            <h5><strong>Contact : </strong>0291-2801305</h5>
+            <a class="icons-sm email-ic" href="mailto:samanwita@iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
         </div>
         <div class="col-lg-6 col-md-12 mb-r animate-profile invisible">
             <div class="avatar">
@@ -61,6 +60,15 @@ include 'navbar.html';
             <h5>Faculty Advisor</h5>
             <h5><strong>Contact : </strong>0291-2801211</h5>
             <a class="icons-sm email-ic" href="mailto:pyadav@iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-r animate-profile invisible">
+        <div class="avatar">
+                <img src="images/sqloader.gif" data-src="images/avatar/Indranil Banerjee.jpg" class="lazyload rounded-circle">
+            </div>
+            <h4>Dr. Indranil Banerjee</h4>
+            <h5>Faculty Advisor</h5>
+            <h5><strong>Contact : </strong>0291-2801214</h5>
+            <a class="icons-sm email-ic" href="mailto:indranil@iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
         </div>
     </div>
 </section>

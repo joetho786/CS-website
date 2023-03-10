@@ -36,7 +36,7 @@ include 'navbar.html';
                 <img src="images/sqloader.gif" data-src="images/avatar/akash_vishwakarma.jpeg" class="lazyload rounded-circle">
             </div>
             <h4>Akash Vishwakarma</h4>
-            <h5><strong>Contact : </strong> </h5>
+            <h5><strong>Contact : </strong>+91 9651530172 </h5>
             <a class="icons-sm email-ic" href="mailto:studentcounsellor@iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
         </div>
         <div class="col-lg-6 col-md-12 mb-r animate-profile">

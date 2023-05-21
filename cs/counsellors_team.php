@@ -47,6 +47,14 @@ include 'navbar.html';
             <h5><strong>Contact : </strong>+91 7023761903</h5>
             <a class="icons-sm email-ic" href="mailto:anannyasharma@osstaff.iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
         </div>
+        <div class="col-lg-6 col-md-12 mb-r animate-profile">
+            <div class="avatar">
+                <img src="images/sqloader.gif" data-src="images/avatar/Anjali_Bhatia.jpg" class="lazyload rounded-circle">
+            </div>
+            <h4>Anjali Bhatia</h4>
+            <h5><strong>Contact : </strong>+91 98973 47663</h5>
+            <a class="icons-sm email-ic" href="mailto:anjalibhatia@iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
+        </div>
     </div>
 </section>
 <!--/Section: Team v.1-->

@@ -41,6 +41,14 @@ include 'navbar.html';
         </div>
         <div class="col-lg-6 col-md-12 mb-r animate-profile">
             <div class="avatar">
+                <img src="images/sqloader.gif" data-src="images/avatar/anjali_bhatia.jpg" class="lazyload rounded-circle">
+            </div>
+            <h4>Anjali Bhatia</h4>
+            <h5><strong>Contact : </strong>+91 9897347663 </h5>
+            <a class="icons-sm email-ic" href="mailto:anjalibhatia@iitj.ac.in"><i class="fa fa-envelope-o"> </i></a>
+        </div>
+        <div class="col-lg-6 col-md-12 mb-r animate-profile">
+            <div class="avatar">
                 <img src="images/sqloader.gif" data-src="images/avatar/Anannya_Sharma.jpg" class="lazyload rounded-circle">
             </div>
             <h4>Anannya Sharma</h4>

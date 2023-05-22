@@ -22,7 +22,7 @@ include 'navbar.html';
     <h1 class="section-heading">Counsellors Team</h1>
     <!--Section description-->
     <p class="section-description"></p>
-    <div class="row text-center">
+    <div class="row justify-content-center text-center">
         <div class="col-lg-6 col-md-12 mb-r animate-profile">
             <div class="avatar">
                 <img src="images/sqloader.gif" data-src="images/avatar/prasad_gadkari.jpg" class="lazyload rounded-circle">

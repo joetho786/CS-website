@@ -256,6 +256,54 @@ include 'head.html';
                     </div>
                 </div>
 
+                <div class="row flex-center mt-4">
+                    <h3>
+                        CommuniFun: Cracking the Code of Engaging Communication
+                    </h3>
+                    <div style="height:100px"></div>
+
+                    <div style="text-align: left;">
+                        <p>In the interactive meeting with the students titled "CommuniFun," students enthusiastically
+                            participated and shared their challenges when it comes to initiating conversations with
+                            colleagues or effectively expressing their emotions on specific topics. The session aimed to
+                            provide practical solutions and enhance their communication skills. To make the learning
+                            experience enjoyable, various fun games were incorporated, enabling students to grasp the
+                            fundamental concepts of effective communication. By fostering a supportive and engaging
+                            environment, participants gained valuable insights into overcoming communication barriers
+                            and
+                            expressing themselves confidently</p>
+
+                    </div>
+
+                    <div style="height:50px"></div>
+                </div>
+                <div class="tab-pane fade in show active" id="pmrinfo" role="tabpanel">
+                    <div class="col-md-12">
+                        <div class="mdb-lightbox">
+                            <div class="row flex-center">
+                                <?php
+                                $dir = './images2/CommuniFun/';
+                                $dir_open = opendir($dir);
+
+                                while (false !== ($filename = readdir($dir_open))) {
+                                    if ($filename != "." && $filename != "..") {
+                                        $link = "<figure class=\"col-md-4 col-sm-6 col-6\">
+                        <a href='$dir$filename' data-size=\"1600x1067\">
+                            <img src=\"images/loader.gif\" data-src=\"$dir" . "$filename\" class=\"lazyload img-fluid\">
+                        </a>
+                    </figure>
+                    ";
+                                        echo $link;
+                                    }
+                                }
+
+                                closedir($dir_open);
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
 
                 <div style="height:100px"></div>
